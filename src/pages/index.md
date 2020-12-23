@@ -11,7 +11,7 @@ mainpitch:
     Radxport is talented to convert our quarry resources into quality blocks.
     The company values its customers and knows to turn the rock to the benefit
     of its customers.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
+description: Radxport is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
   knowledge to anyone.
