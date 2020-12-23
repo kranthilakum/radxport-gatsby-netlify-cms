@@ -3,7 +3,15 @@ templateKey: about-page
 path: /about
 title: About
 ---
-Radxport private limited has been incorporated with the objective of exploring mineral deposits, marketing of minerals and trading. The company has acquired granite quarries in Andhra Pradesh. Radxport has various clearance from the Government to execute the leases. With increasing demand for minerals in India and abroad. Major investments of the company is granite the widest range of products like black Galaxy and white Galaxy, Tan brown granite has enabled the company to compete in the current market and to lead as the pioneers of this area.
+## The Company
+
+Radxport private limited has been incorporated with the objective of exploring mineral deposits, marketing of minerals and trading.
+
+Our business idea is to produce high quality granite blocks to clients in India and abroad. The blocks are suitable for s.a. concrete, asphalt and several other fields where high quality Granite is needed. The material is produced in our three Granite quarries and in our natural gravel quarry.
+
+Due to that we are a small company, with a small organization we have a high flexibility and can adapt the products to the client's demands.
+
+The company has acquired granite quarries in Andhra Pradesh and running its operations. It has various clearance from the Government to execute the leases. With increasing demand for minerals in India and abroad, the major investments of the company are into granite mining with the widest range of products like black Galaxy and white Galaxy, Tan brown granite.
 
 The company is managed by Mr. Hazarathaiah Jadapalli. He has more than two decades of experience in the mining industry. He successfully launched his ventures by grabbing new trading assignments from different countries. He started his career as trading consultant and executed several assignments on behalf of his firm as well as outsourced projects as an agency.
 
