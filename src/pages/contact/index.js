@@ -40,6 +40,24 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Contact</h1>
+              <h3>Office Address</h3>
+              <div>
+                <strong>Radxport Enterprises Private Limited</strong>
+                <div>Flat no 202, V.K.B Apartment</div>
+                <div>Sujatha Nagar Beside Taluka Police station</div>
+                <div>Prakasam, Andhra Pradesh. Pincode: 523002</div>
+              </div>
+              <div><strong>Email</strong>: info@radxport.in</div>
+
+              <h3>Administration, Sales and Marketing</h3>
+              <div>
+                <strong>Hazarathaiah Jadapalli</strong>
+                <div><i>Managing Director</i></div>
+                <div><strong>Mobile:</strong> +91-</div>
+                <div><strong>E-mail:</strong> hazarathaiah@radxport.in</div>
+              </div>
+
+              <h3></h3>
               <form
                 name="contact"
                 method="post"
