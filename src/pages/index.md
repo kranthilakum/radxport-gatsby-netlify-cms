@@ -3,14 +3,14 @@ templateKey: index-page
 title: Radxport Enterprises Private Limited
 image: /img/home-jumbotron.jpg
 heading: Company
-subheading: Support sustainable farming while enjoying a cup
+subheading: a granite mining business
 mainpitch:
   title: Why Radxport
-  description: Radxport manages its own production, we’re able to guarantee
-    flexible deliveries and consistency in quality. The skilled personnel of
-    Radxport is talented to convert our quarry resources into quality blocks.
-    The company values its customers and knows to turn the rock to the benefit
-    of its customers.
+  description: Radxport manages its own production. We guarantee flexible
+    deliveries and consistency in quality. The skilled personnel of Radxport is
+    talented to convert our quarry resources into quality blocks. The company
+    values its customers and knows to turn the rock to the benefit of its
+    customers.
 description: Radxport is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
