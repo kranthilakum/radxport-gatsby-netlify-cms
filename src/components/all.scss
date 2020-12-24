@@ -16,14 +16,14 @@ body {
 }
 
 .navbar {
-  background-color: #24536f;
+  background-color: inherit !important;
 }
 
 .navbar .navbar-menu {
   box-shadow: none !important;
 }
 
-h1, h2, h3, h4, strong, label, .content .title, .content .subtitle {
+h1, h2, h3, h4, strong, label, .content .title, .content .subtitle, .navbar-item {
   color: $text-color !important;
 }
 
@@ -67,6 +67,9 @@ h1, h2, h3, h4, strong, label, .content .title, .content .subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
+  h1 {
+
+  }
 }
 
 .btn {
