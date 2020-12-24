@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Radxport Enterprises Private Limited
-image: /img/home-jumbotron.jpg
+image: /img/open_pit_mine.svg
 heading: Company
 subheading: a granite mining business
 mainpitch:
