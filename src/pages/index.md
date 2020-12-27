@@ -5,16 +5,18 @@ image: /img/open_pit_mine.svg
 heading: Company
 subheading: a granite mining business
 mainpitch:
-  title: Why Radxport
+  title: Radxport
   description: Radxport manages its own production. We guarantee flexible
     deliveries and consistency in quality. The skilled personnel of Radxport is
     talented to convert our quarry resources into quality blocks. The company
     values its customers and knows to turn the rock to the benefit of its
     customers.
-description: Radxport is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: Radxport is the ultimate spot for rough granite blocks. We take
+  rough block production, processing and quality checks seriously. We value our
+  customer requirements and deliver the products on time. We sell rough granite
+  blocks that are sourced directly from our own quarries. We’re proud to offer a
+  variety of granite block sizes. We care for the customer needs. Contact us
+  directly for current availability.
 intro:
   blurbs:
     - image: /img/coffee.png
