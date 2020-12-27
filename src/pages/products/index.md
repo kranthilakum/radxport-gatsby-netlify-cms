@@ -3,7 +3,7 @@ heading: Great granite with uniform colour and texture
 path: /products
 templateKey: product-page
 title: Our Products
-image: /img/jumbotron.jpg
+image: /img/black-galaxy-20-1050x700-tile.jpg
 description: Radxport is the ultimate spot for rough granite blocks. We take
   rough block production, processing and quality checks seriously. We value our
   customer requirements and deliver the products on time. We sell rough granite
@@ -27,8 +27,8 @@ main:
     modern quarrying technologies deployed by Radxport, secure blocks that
     respond to the requirements of the client.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: black galaxy
+    image: /img/black-galaxy-tile.jpg
   image2:
     alt: black galaxy
     image: /img/absolute-black-granite.jpg
