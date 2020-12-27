@@ -14,7 +14,7 @@ export const ProductPageTemplate = ({
   description,
   intro,
   main,
-  testimonials,
+  // testimonials,
   fullImage,
   pricing,
 }) => (
@@ -30,8 +30,8 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
+          boxShadow: 'rgba(36, 83, 111, 0.6) 0.5rem 0px 0px, rgba(36, 83, 111, 0.6) -0.5rem 0px 0px',
+          backgroundColor: 'rgba(36, 83, 111, 0.6)',
           color: 'white',
           padding: '1rem',
         }}
@@ -80,7 +80,7 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
+              {/* <Testimonials testimonials={testimonials} /> */}
               <div
                 className="full-width-image-container"
                 style={{
@@ -91,11 +91,11 @@ export const ProductPageTemplate = ({
                   })`,
                 }}
               />
-              <h2 className="has-text-weight-semibold is-size-2">
+              {/* <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
               <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+              <Pricing data={pricing.plans} /> */}
             </div>
           </div>
         </div>
@@ -219,10 +219,6 @@ export const productPageQuery = graphql`
               }
             }
           }
-        }
-        testimonials {
-          author
-          quote
         }
         full_image {
           childImageSharp {

@@ -41,10 +41,15 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     {/* <li>
+                      <Link className="navbar-item" to="/blog">
+                        Blog
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/contact/examples">
                         Form Examples
                       </Link>
-                    </li> */}
+                    </li>
                     <li>
                       <a
                         className="navbar-item"
@@ -54,24 +59,20 @@ const Footer = class extends React.Component {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </section>
               </div>
               <div className="column is-4">
                 <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
+                  <h4>Contact</h4>
+                  <div>
+                    <div>Flat no 202, V.K.B Apartment</div>
+                    <div>Sujatha Nagar Beside Taluka Police station</div>
+                    <div>Ongole, Prakasam, Andhra Pradesh, India - 523002</div>
+                    <div><strong>Phone:</strong> (+91) 77805 32775</div>
+                    <div><strong>Email</strong>: info@radxport.in</div>
+                  </div>
                 </section>
               </div>
               <div className="column is-4 social">

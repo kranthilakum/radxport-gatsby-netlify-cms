@@ -40,90 +40,107 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Contact</h1>
-              <h3>Office Address</h3>
-              <div>
-                <strong>Radxport Enterprises Private Limited</strong>
-                <div>Flat no 202, V.K.B Apartment</div>
-                <div>Sujatha Nagar Beside Taluka Police station</div>
-                <div>Prakasam, Andhra Pradesh. Pincode: 523002</div>
-              </div>
-              <div><strong>Email</strong>: info@radxport.in</div>
+              <div className="columns">
+                <div className="column">
+                  <h3>Administration, Sales and Marketing</h3>
+                  <div>
+                    <strong>Hazarathaiah Jadapalli</strong>
+                    <div><i>Managing Director</i></div>
+                    <div><strong>Mobile:</strong> (+91) 77805 32775</div>
+                    <div><strong>E-mail:</strong> hazarathaiah@radxport.in</div>
+                  </div>
 
-              <h3>Administration, Sales and Marketing</h3>
-              <div>
-                <strong>Hazarathaiah Jadapalli</strong>
-                <div><i>Managing Director</i></div>
-                <div><strong>Mobile:</strong> +91-</div>
-                <div><strong>E-mail:</strong> hazarathaiah@radxport.in</div>
+                  <h3>Office Address</h3>
+                  <div>
+                    <strong>Radxport Enterprises Private Limited</strong>
+                    <div>Flat no 202, V.K.B Apartment</div>
+                    <div>Sujatha Nagar Beside Taluka Police station</div>
+                    <div>Ongole, Prakasam, Andhra Pradesh, India - 523002</div>
+                    <div><strong>Phone:</strong> (+91) 77805 32775</div>
+                    <div><strong>Email</strong>: info@radxport.in</div>
+                    <div><strong>Open hours</strong>: Monday to Saturday 9am - 6pm</div>
+                  </div>
+                </div>
+                <div className="column">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.481513449959!2d80.03164431485138!3d15.512296789227129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b01e7691712c7%3A0x456a47b189558511!2sRadxport%20Enterprises%20Private%20Limited!5e0!3m2!1sen!2sin!4v1609096010674!5m2!1sen!2sin"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style={{border:0}}
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"></iframe>
+                </div>
+                <div className="column">
+                  <form
+                    name="contact"
+                    method="post"
+                    action="/contact/thanks/"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                    onSubmit={this.handleSubmit}
+                  >
+                  {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                  <input type="hidden" name="form-name" value="contact" />
+                  <div hidden>
+                    <label>
+                      Don’t fill this out:{' '}
+                      <input name="bot-field" onChange={this.handleChange} />
+                    </label>
+                  </div>
+                  <div className="field">
+                    <label className="label" htmlFor={'name'}>
+                      Your name
+                    </label>
+                    <div className="control">
+                      <input
+                        className="input"
+                        type={'text'}
+                        name={'name'}
+                        onChange={this.handleChange}
+                        id={'name'}
+                        required={true}
+                      />
+                    </div>
+                  </div>
+                  <div className="field">
+                    <label className="label" htmlFor={'email'}>
+                      Email
+                    </label>
+                    <div className="control">
+                      <input
+                        className="input"
+                        type={'email'}
+                        name={'email'}
+                        onChange={this.handleChange}
+                        id={'email'}
+                        required={true}
+                      />
+                    </div>
+                  </div>
+                  <div className="field">
+                    <label className="label" htmlFor={'message'}>
+                      Message
+                    </label>
+                    <div className="control">
+                      <textarea
+                        className="textarea"
+                        name={'message'}
+                        onChange={this.handleChange}
+                        id={'message'}
+                        required={true}
+                      />
+                    </div>
+                  </div>
+                  <div className="field">
+                    <button className="button is-link" type="submit">
+                      Send
+                    </button>
+                  </div>
+                </form>
+                </div>
               </div>
-
-              <h3></h3>
-              <form
-                name="contact"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                  <label>
-                    Don’t fill this out:{' '}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
-                    Your name
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'text'}
-                      name={'name'}
-                      onChange={this.handleChange}
-                      id={'name'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    Email
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'email'}
-                      name={'email'}
-                      onChange={this.handleChange}
-                      id={'email'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
-                  </label>
-                  <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={'message'}
-                      onChange={this.handleChange}
-                      id={'message'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
-                  </button>
-                </div>
-              </form>
             </div>
           </div>
         </section>
