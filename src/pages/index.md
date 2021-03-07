@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Radxport Enterprises Private Limited
-image: /img/whatsapp-image-2021-03-07-at-12.17.46-1-.jpeg
+image: /img/whatsapp-image-2021-03-07-at-12.17.44.jpeg
 heading: Company
 subheading: a granite mining business
 mainpitch:
