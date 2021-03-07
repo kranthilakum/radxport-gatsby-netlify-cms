@@ -34,8 +34,8 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
-          boxShadow: 'rgba(36, 83, 111, 0.6) 0.5rem 0px 0px, rgba(36, 83, 111, 0.6) -0.5rem 0px 0px',
-          backgroundColor: 'rgba(36, 83, 111, 0.6)'
+          boxShadow: 'rgba(223, 210, 200, 0.4) 0.5rem 0px 0px, rgba(223, 210, 200, 0.4) -0.5rem 0px 0px',
+          backgroundColor: 'rgba(223, 210, 200, 0.4)'
         }}
       >
         <h1

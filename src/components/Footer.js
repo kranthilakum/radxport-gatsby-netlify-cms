@@ -10,17 +10,17 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
+      <footer>
         <div className="content has-text-centered">
-          <h2>Radxport Enterprises private limited.</h2>
+          <b>Radxport Enterprises private limited.</b>
           {/* <img
             src={logo}
             alt="Kaldi"
             style={{ width: '14em', height: '10em' }}
           /> */}
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+        <div className="content has-text-centered has-text-white-ter">
+          <div className="container has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
@@ -65,13 +65,13 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-4">
                 <section>
-                  <h4>Contact</h4>
                   <div>
-                    <div>Flat no 202, V.K.B Apartment</div>
-                    <div>Sujatha Nagar Beside Taluka Police station</div>
-                    <div>Ongole, Prakasam, Andhra Pradesh, India - 523002</div>
-                    <div><strong>Phone:</strong> (+91) 77805 32775</div>
-                    <div><strong>Email</strong>: info@radxport.in</div>
+                    <div>Flat #202, V.K.B. Apartment</div>
+                    <div>Beside Taluka Police station, Sujatha Nagar</div>
+                    <div>Ongole, Prakasam district, Andhra Pradesh</div>
+                    <div>India - 523002</div>
+                    <div><b>Phone:</b> (+91) 77805 32775</div>
+                    <div><b>Email</b>: info@radxport.in</div>
                   </div>
                 </section>
               </div>
