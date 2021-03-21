@@ -1,3 +1,4 @@
+@import "~bulma";
 @import "~bulma/sass/utilities/initial-variables";
 
 // Config vars
@@ -33,7 +34,7 @@ body {
   box-shadow: none !important;
 }
 
-h1, h2, h3, h4, strong, label, .content .title, .content .subtitle, .navbar-item {
+h1, h2, h3, h4, strong, .content .title, .content .subtitle, .navbar-item {
   color: $text-color !important;
 }
 
@@ -114,9 +115,8 @@ h1, h2, h3, h4, strong, label, .content .title, .content .subtitle, .navbar-item
   fill: currentColor;
 }
 
-footer {
+.footer {
   background-color: $black;
-  padding: 3rem 0rem 0rem;
   .content {
     color: $white;
   }
@@ -137,10 +137,10 @@ $menu-label-color: $white-ter;
 }
 .menu-list {
   list-style: none !important;
-  text-align: left;
+  text-align: center;
 }
 .menu-list a {
-  color:  white;
+  color: $white;
 }
 
 .social {
@@ -170,7 +170,7 @@ $menu-label-color: $white-ter;
   margin: 0 1.5em 0 0;
 }
 
-@import "~bulma";
+
 
 // responsiveness
 tablet-only {

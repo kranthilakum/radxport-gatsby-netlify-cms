@@ -10,43 +10,41 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer>
-        <div className="content has-text-centered">
-          <b>Radxport Enterprises private limited.</b>
-          {/* <img
+      <footer className="footer">
+        {/* <div className="content has-text-centered">
+          <img
             src={logo}
-            alt="Kaldi"
+            alt="Radxport Enterprises Logo"
             style={{ width: '14em', height: '10em' }}
-          /> */}
-        </div>
-        <div className="content has-text-centered has-text-white-ter">
-          <div className="container has-text-white-ter">
+          />
+        </div> */}
+        <div className="content has-text-centered">
             <div style={{ maxWidth: '100vw' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
+                      <Link to="/">
                         Home
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
+                      <Link to="/about">
                         About
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
+                      <Link to="/products">
                         Products
                       </Link>
                     </li>
                     {/* <li>
-                      <Link className="navbar-item" to="/blog">
+                      <Link to="/blog">
                         Blog
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
+                      <Link to="/contact/examples">
                         Form Examples
                       </Link>
                     </li>
@@ -65,14 +63,15 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-4">
                 <section>
-                  <div>
-                    <div>Flat #202, V.K.B. Apartment</div>
-                    <div>Beside Taluka Police station, Sujatha Nagar</div>
-                    <div>Ongole, Prakasam district, Andhra Pradesh</div>
-                    <div>India - 523002</div>
-                    <div><b>Phone:</b> (+91) 77805 32775</div>
-                    <div><b>Email</b>: info@radxport.in</div>
-                  </div>
+                  <label className="is-size-4">Radxport Enterprises Pvt. Ltd.</label>
+                  <p>
+                    Flat #202, V.K.B. Apartment,<br/>
+                    Beside Taluka Police station, Sujatha Nagar,
+                    Ongole, Prakasam district, Andhra Pradesh,
+                    India - 523002
+                  </p>
+                  <div><span className="has-text-weight-bold">Phone:</span> (+91) 77805 32775</div>
+                  <div><span className="has-text-weight-bold">Email</span>: info@radxport.in</div>
                 </section>
               </div>
               <div className="column is-4 social">
@@ -107,7 +106,6 @@ const Footer = class extends React.Component {
                 </a>
               </div>
             </div>
-          </div>
         </div>
       </footer>
     )
